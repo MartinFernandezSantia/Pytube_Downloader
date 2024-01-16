@@ -11,6 +11,10 @@ import queue
 # Don't know how it works, but it allows ctk to detect screen resolution correctly
 ctypes.windll.shcore.SetProcessDpiAwareness(2)
 
+# Options which the user can choose from
+MENU_OPTIONS = {"v": "MP4", "a": "MP3", "p": "Playlist", "l": "Link"}
+WINDOW_TITLE = "DescargarYT"
+
 
 def config_window(self, root):
     # Global configurations for CTk window
